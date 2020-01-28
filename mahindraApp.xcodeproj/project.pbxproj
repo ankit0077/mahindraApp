@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		364E6F7923DC68030031BE8E /* mahindraApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 364E6F7723DC68030031BE8E /* mahindraApp.xcdatamodeld */; };
+		364E6F7B23DC69AC0031BE8E /* AlertFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364E6F7A23DC69AC0031BE8E /* AlertFile.swift */; };
+		364E6F7D23DC727F0031BE8E /* DataSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364E6F7C23DC727F0031BE8E /* DataSaver.swift */; };
+		3650658B23D605BA00E7E48C /* sticker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3650658A23D605BA00E7E48C /* sticker.jpg */; };
+		36508ACA23D9FD1900AF70AE /* notificationCenterView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36508AC923D9FD1900AF70AE /* notificationCenterView1.swift */; };
+		36508ACC23D9FD2900AF70AE /* notificationCenterView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36508ACB23D9FD2900AF70AE /* notificationCenterView2.swift */; };
+		36508ACE23D9FD7300AF70AE /* ProtocolDelegateView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36508ACD23D9FD7300AF70AE /* ProtocolDelegateView1.swift */; };
+		36508AD023D9FD8100AF70AE /* ProtocolDelegateView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36508ACF23D9FD8100AF70AE /* ProtocolDelegateView2.swift */; };
+		3656D16C23D58A4D00FEAE24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3656D16B23D58A4D00FEAE24 /* AppDelegate.swift */; };
+		3656D16E23D58A4D00FEAE24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3656D16D23D58A4D00FEAE24 /* SceneDelegate.swift */; };
+		3656D17023D58A4D00FEAE24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3656D16F23D58A4D00FEAE24 /* ViewController.swift */; };
+		3656D17323D58A4D00FEAE24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3656D17123D58A4D00FEAE24 /* Main.storyboard */; };
+		3656D17523D58A5500FEAE24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3656D17423D58A5500FEAE24 /* Assets.xcassets */; };
+		3656D17823D58A5500FEAE24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3656D17623D58A5500FEAE24 /* LaunchScreen.storyboard */; };
+		3656D18023D5B42700FEAE24 /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3656D17F23D5B42700FEAE24 /* DataManger.swift */; };
+		365CF5D923DF501F0007023D /* SegueViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365CF5D823DF501F0007023D /* SegueViewController1.swift */; };
+		365CF5DB23DF50350007023D /* SegueViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365CF5DA23DF50350007023D /* SegueViewController2.swift */; };
+		397199173D1DF826F0E0FB7E /* Pods_mahindraApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B08DBFDDAAB61B5FB0B5AB0 /* Pods_mahindraApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		364E6F7823DC68030031BE8E /* mahindraApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mahindraApp.xcdatamodel; sourceTree = "<group>"; };
+		364E6F7A23DC69AC0031BE8E /* AlertFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFile.swift; sourceTree = "<group>"; };
+		364E6F7C23DC727F0031BE8E /* DataSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSaver.swift; sourceTree = "<group>"; };
+		3650658A23D605BA00E7E48C /* sticker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sticker.jpg; sourceTree = "<group>"; };
+		36508AC923D9FD1900AF70AE /* notificationCenterView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationCenterView1.swift; sourceTree = "<group>"; };
+		36508ACB23D9FD2900AF70AE /* notificationCenterView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationCenterView2.swift; sourceTree = "<group>"; };
+		36508ACD23D9FD7300AF70AE /* ProtocolDelegateView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolDelegateView1.swift; sourceTree = "<group>"; };
+		36508ACF23D9FD8100AF70AE /* ProtocolDelegateView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolDelegateView2.swift; sourceTree = "<group>"; };
+		3656D16823D58A4D00FEAE24 /* mahindraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mahindraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3656D16B23D58A4D00FEAE24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3656D16D23D58A4D00FEAE24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3656D16F23D58A4D00FEAE24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3656D17223D58A4D00FEAE24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3656D17423D58A5500FEAE24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3656D17723D58A5500FEAE24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3656D17923D58A5500FEAE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3656D17F23D5B42700FEAE24 /* DataManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManger.swift; sourceTree = "<group>"; };
+		365CF5D823DF501F0007023D /* SegueViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueViewController1.swift; sourceTree = "<group>"; };
+		365CF5DA23DF50350007023D /* SegueViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueViewController2.swift; sourceTree = "<group>"; };
+		52CD7770A7C808519D0D6DC9 /* Pods-mahindraApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mahindraApp.release.xcconfig"; path = "Target Support Files/Pods-mahindraApp/Pods-mahindraApp.release.xcconfig"; sourceTree = "<group>"; };
+		6B08DBFDDAAB61B5FB0B5AB0 /* Pods_mahindraApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mahindraApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C83EB871271BE07C5F823C /* Pods-mahindraApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mahindraApp.debug.xcconfig"; path = "Target Support Files/Pods-mahindraApp/Pods-mahindraApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3656D16523D58A4D00FEAE24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397199173D1DF826F0E0FB7E /* Pods_mahindraApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0422CEEDFACE04E0A500A097 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82C83EB871271BE07C5F823C /* Pods-mahindraApp.debug.xcconfig */,
+				52CD7770A7C808519D0D6DC9 /* Pods-mahindraApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0C50094834B31390AEA018A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B08DBFDDAAB61B5FB0B5AB0 /* Pods_mahindraApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3656D15F23D58A4D00FEAE24 = {
+			isa = PBXGroup;
+			children = (
+				364E6F7723DC68030031BE8E /* mahindraApp.xcdatamodeld */,
+				3656D16A23D58A4D00FEAE24 /* mahindraApp */,
+				3656D16923D58A4D00FEAE24 /* Products */,
+				0422CEEDFACE04E0A500A097 /* Pods */,
+				0C50094834B31390AEA018A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3656D16923D58A4D00FEAE24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3656D16823D58A4D00FEAE24 /* mahindraApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3656D16A23D58A4D00FEAE24 /* mahindraApp */ = {
+			isa = PBXGroup;
+			children = (
+				3656D16B23D58A4D00FEAE24 /* AppDelegate.swift */,
+				3656D16D23D58A4D00FEAE24 /* SceneDelegate.swift */,
+				3656D16F23D58A4D00FEAE24 /* ViewController.swift */,
+				3656D17123D58A4D00FEAE24 /* Main.storyboard */,
+				3656D17423D58A5500FEAE24 /* Assets.xcassets */,
+				3650658A23D605BA00E7E48C /* sticker.jpg */,
+				3656D17623D58A5500FEAE24 /* LaunchScreen.storyboard */,
+				3656D17923D58A5500FEAE24 /* Info.plist */,
+				3656D17F23D5B42700FEAE24 /* DataManger.swift */,
+				36508AC923D9FD1900AF70AE /* notificationCenterView1.swift */,
+				36508ACB23D9FD2900AF70AE /* notificationCenterView2.swift */,
+				36508ACD23D9FD7300AF70AE /* ProtocolDelegateView1.swift */,
+				36508ACF23D9FD8100AF70AE /* ProtocolDelegateView2.swift */,
+				364E6F7A23DC69AC0031BE8E /* AlertFile.swift */,
+				364E6F7C23DC727F0031BE8E /* DataSaver.swift */,
+				365CF5D823DF501F0007023D /* SegueViewController1.swift */,
+				365CF5DA23DF50350007023D /* SegueViewController2.swift */,
+			);
+			path = mahindraApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3656D16723D58A4D00FEAE24 /* mahindraApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3656D17C23D58A5500FEAE24 /* Build configuration list for PBXNativeTarget "mahindraApp" */;
+			buildPhases = (
+				2F3FF710D5948D90F4BE8D80 /* [CP] Check Pods Manifest.lock */,
+				3656D16423D58A4D00FEAE24 /* Sources */,
+				3656D16523D58A4D00FEAE24 /* Frameworks */,
+				3656D16623D58A4D00FEAE24 /* Resources */,
+				61A6C09C0E12E64B376F11AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mahindraApp;
+			productName = mahindraApp;
+			productReference = 3656D16823D58A4D00FEAE24 /* mahindraApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3656D16023D58A4D00FEAE24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "ankit shelar";
+				TargetAttributes = {
+					3656D16723D58A4D00FEAE24 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 3656D16323D58A4D00FEAE24 /* Build configuration list for PBXProject "mahindraApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3656D15F23D58A4D00FEAE24;
+			productRefGroup = 3656D16923D58A4D00FEAE24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3656D16723D58A4D00FEAE24 /* mahindraApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3656D16623D58A4D00FEAE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3656D17823D58A5500FEAE24 /* LaunchScreen.storyboard in Resources */,
+				3656D17523D58A5500FEAE24 /* Assets.xcassets in Resources */,
+				3656D17323D58A4D00FEAE24 /* Main.storyboard in Resources */,
+				3650658B23D605BA00E7E48C /* sticker.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F3FF710D5948D90F4BE8D80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mahindraApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61A6C09C0E12E64B376F11AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mahindraApp/Pods-mahindraApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mahindraApp/Pods-mahindraApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mahindraApp/Pods-mahindraApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3656D16423D58A4D00FEAE24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364E6F7D23DC727F0031BE8E /* DataSaver.swift in Sources */,
+				36508AD023D9FD8100AF70AE /* ProtocolDelegateView2.swift in Sources */,
+				365CF5D923DF501F0007023D /* SegueViewController1.swift in Sources */,
+				365CF5DB23DF50350007023D /* SegueViewController2.swift in Sources */,
+				3656D17023D58A4D00FEAE24 /* ViewController.swift in Sources */,
+				36508ACC23D9FD2900AF70AE /* notificationCenterView2.swift in Sources */,
+				3656D16C23D58A4D00FEAE24 /* AppDelegate.swift in Sources */,
+				36508ACA23D9FD1900AF70AE /* notificationCenterView1.swift in Sources */,
+				3656D16E23D58A4D00FEAE24 /* SceneDelegate.swift in Sources */,
+				3656D18023D5B42700FEAE24 /* DataManger.swift in Sources */,
+				364E6F7923DC68030031BE8E /* mahindraApp.xcdatamodeld in Sources */,
+				364E6F7B23DC69AC0031BE8E /* AlertFile.swift in Sources */,
+				36508ACE23D9FD7300AF70AE /* ProtocolDelegateView1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3656D17123D58A4D00FEAE24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3656D17223D58A4D00FEAE24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3656D17623D58A5500FEAE24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3656D17723D58A5500FEAE24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3656D17A23D58A5500FEAE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3656D17B23D58A5500FEAE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3656D17D23D58A5500FEAE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C83EB871271BE07C5F823C /* Pods-mahindraApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mahindraApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankitshelar.mahindraApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3656D17E23D58A5500FEAE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CD7770A7C808519D0D6DC9 /* Pods-mahindraApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mahindraApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankitshelar.mahindraApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3656D16323D58A4D00FEAE24 /* Build configuration list for PBXProject "mahindraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3656D17A23D58A5500FEAE24 /* Debug */,
+				3656D17B23D58A5500FEAE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3656D17C23D58A5500FEAE24 /* Build configuration list for PBXNativeTarget "mahindraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3656D17D23D58A5500FEAE24 /* Debug */,
+				3656D17E23D58A5500FEAE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		364E6F7723DC68030031BE8E /* mahindraApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				364E6F7823DC68030031BE8E /* mahindraApp.xcdatamodel */,
+			);
+			currentVersion = 364E6F7823DC68030031BE8E /* mahindraApp.xcdatamodel */;
+			path = mahindraApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3656D16023D58A4D00FEAE24 /* Project object */;
+}
