@@ -98,7 +98,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iVP-Lv-0nk">
-                                <rect key="frame" x="10" y="238" width="384" height="40"/>
+                                <rect key="frame" x="10" y="194" width="384" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Pel-kJ-Stn"/>
                                 </constraints>
@@ -106,7 +106,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fv9-1W-tyL">
-                                <rect key="frame" x="10" y="301" width="384" height="40"/>
+                                <rect key="frame" x="10" y="257" width="384" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="WB6-J7-wiU"/>
                                 </constraints>
@@ -158,11 +158,11 @@
             <objects>
                 <viewController storyboardIdentifier="SegueViewController2" id="uRY-KB-X6l" customClass="SegueViewController2" customModule="mahindraApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pB8-N8-P9B">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rhG-zB-p41">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M2R-0U-Ncl">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="769"/>
@@ -517,6 +517,42 @@
             </objects>
             <point key="canvasLocation" x="2530" y="119"/>
         </scene>
+        <!--Video Player File-->
+        <scene sceneID="1KH-bI-IQB">
+            <objects>
+                <viewController storyboardIdentifier="VideoPlayerFile" id="jY6-4w-0hi" customClass="VideoPlayerFile" customModule="mahindraApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gpG-4y-AX1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="miD-gS-c0Q">
+                                <rect key="frame" x="20" y="423" width="374" height="50"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3LV-5R-kqO"/>
+                                </constraints>
+                                <state key="normal" title="Play Test Video">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="playTestVideoPressed:" destination="jY6-4w-0hi" eventType="touchUpInside" id="GPd-5P-m7c"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="miD-gS-c0Q" firstAttribute="leading" secondItem="Lq8-N8-cUp" secondAttribute="leading" constant="20" id="MGZ-fP-iqP"/>
+                            <constraint firstItem="Lq8-N8-cUp" firstAttribute="trailing" secondItem="miD-gS-c0Q" secondAttribute="trailing" constant="20" id="klr-fd-ifh"/>
+                            <constraint firstItem="miD-gS-c0Q" firstAttribute="centerY" secondItem="gpG-4y-AX1" secondAttribute="centerY" id="mg5-ZR-4TT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Lq8-N8-cUp"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nx0-JB-4Ip"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ayO-7I-Tmo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="770" y="-564"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="FW3-a9-ZhS">
             <objects>
@@ -528,7 +564,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="D4e-tf-rr5" kind="relationship" relationship="rootViewController" id="EEt-jE-wIk"/>
+                        <segue destination="jY6-4w-0hi" kind="relationship" relationship="rootViewController" id="7RQ-eX-OPh"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="48E-le-BKt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

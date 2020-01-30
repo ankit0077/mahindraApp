@@ -22,6 +22,7 @@
 		3656D17523D58A5500FEAE24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3656D17423D58A5500FEAE24 /* Assets.xcassets */; };
 		3656D17823D58A5500FEAE24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3656D17623D58A5500FEAE24 /* LaunchScreen.storyboard */; };
 		3656D18023D5B42700FEAE24 /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3656D17F23D5B42700FEAE24 /* DataManger.swift */; };
+		3659894223E06B9B005C25F4 /* VideoPlayerFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3659894123E06B9B005C25F4 /* VideoPlayerFile.swift */; };
 		365CF5D923DF501F0007023D /* SegueViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365CF5D823DF501F0007023D /* SegueViewController1.swift */; };
 		365CF5DB23DF50350007023D /* SegueViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365CF5DA23DF50350007023D /* SegueViewController2.swift */; };
 		397199173D1DF826F0E0FB7E /* Pods_mahindraApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B08DBFDDAAB61B5FB0B5AB0 /* Pods_mahindraApp.framework */; };
@@ -45,6 +46,8 @@
 		3656D17723D58A5500FEAE24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3656D17923D58A5500FEAE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3656D17F23D5B42700FEAE24 /* DataManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManger.swift; sourceTree = "<group>"; };
+		3659894023E06AE9005C25F4 /* sampleVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sampleVideo.mp4; sourceTree = "<group>"; };
+		3659894123E06B9B005C25F4 /* VideoPlayerFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerFile.swift; sourceTree = "<group>"; };
 		365CF5D823DF501F0007023D /* SegueViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueViewController1.swift; sourceTree = "<group>"; };
 		365CF5DA23DF50350007023D /* SegueViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueViewController2.swift; sourceTree = "<group>"; };
 		52CD7770A7C808519D0D6DC9 /* Pods-mahindraApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mahindraApp.release.xcconfig"; path = "Target Support Files/Pods-mahindraApp/Pods-mahindraApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				364E6F7C23DC727F0031BE8E /* DataSaver.swift */,
 				365CF5D823DF501F0007023D /* SegueViewController1.swift */,
 				365CF5DA23DF50350007023D /* SegueViewController2.swift */,
+				3659894123E06B9B005C25F4 /* VideoPlayerFile.swift */,
+				3659894023E06AE9005C25F4 /* sampleVideo.mp4 */,
 			);
 			path = mahindraApp;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3659894223E06B9B005C25F4 /* VideoPlayerFile.swift in Sources */,
 				364E6F7D23DC727F0031BE8E /* DataSaver.swift in Sources */,
 				36508AD023D9FD8100AF70AE /* ProtocolDelegateView2.swift in Sources */,
 				365CF5D923DF501F0007023D /* SegueViewController1.swift in Sources */,
